@@ -1,0 +1,48 @@
+{
+    "name": "kartulin/php-ftp-droid",
+    "description": "Fast PHP-FTP-client",
+    "keywords": [
+        "php-ftp-droid",
+        "ftp-droid",
+        "php-ftp",
+        "ftp-php",
+        "php-ftp-lib",
+        "php-ftp wrapper"
+    ],
+    "homepage": "https://github.com/kartulin/php-ftp-droid",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kartulin",
+            "email": "stalkerxxl@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+      "ext-ftp": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "phpstan/phpstan": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kartulin\\FtpDroid\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kartulin\\FtpDroid\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
