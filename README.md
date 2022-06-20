@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/kartulin/php-ftp-droid.svg?style=flat-square)](https://packagist.org/packages/kartulin/php-ftp-droid)
 [![Total Downloads](https://img.shields.io/packagist/dt/kartulin/php-ftp-droid.svg?style=flat-square)](https://packagist.org/packages/kartulin/php-ftp-droid)
-![GitHub Actions](https://github.com/kartulin/php-ftp-droid/actions/workflows/main.yml/badge.svg)
 
 Simple and comfortable library for work with FTP protocol. Supports:
 
